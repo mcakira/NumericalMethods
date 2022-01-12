@@ -1,4 +1,8 @@
 function X= lufact(A,B)
+%Program 3.3- Solves the linear system of equations AX=B
+%Input  -   A is an NxN matrix
+%       -   B is an Nx1 matrix
+%Output -   X is am Nx1 matrix containing the solution to AX=B system
 
 [N,N]=size(A);
 X=zeros(N,1);
